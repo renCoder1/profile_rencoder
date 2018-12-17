@@ -1,0 +1,254 @@
+/* tags selectors */
+body {
+  /* background-color: */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin: 0 0;
+  /* font-size: 150%; */
+  font-size: 100%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-top: 50px;
+  /* /padding-top: 100px; */
+  font-size: 6vw;
+  margin-bottom: 0;
+  color: #2a6171;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.4vw;
+  /* 2rem; */
+  /* 2.5rem */
+  color: #2a6171;
+  line-height: 1;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  /* 1.8vw; */
+  margin-top: 0;
+  color: #2a6171;
+  font-weight: normal;
+  line-height: 1;
+}
+.special_h3{
+  font-size: 18px;
+  line-height: 2;
+}
+hr{
+  width: 7%;
+
+
+  border: none;
+  border-top: 5px dotted #004a7c;
+}
+
+/* p{
+  font-size: 2v;
+} */
+.profile{
+width: 50%;
+margin: 1% auto 1% auto;
+font-size: 16px;
+line-height: 2;
+/* 1.8vw; */
+font-weight: lighter;
+color:#4d606e;
+
+/* #f5f5f5; */
+
+}
+
+.profile_img {
+  border-radius: 100px;
+  width:200px;
+  height:200px;
+  /* 15%; */
+}
+.contact-me{
+  background-color: #005691;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+color:#f5f5f5;
+}
+
+.get_in_touch_text{
+
+  color: #ebebeb;
+  /* #f4f4f4; */
+  /* #f5f5f5; */
+}
+
+.contact_img{
+  width: 5%;
+  height:5%;
+}
+/* class selectors*/
+.bottom-container {
+  background-color:  #004a7c;
+  /* border: 10px solid #cca2e1; */
+  padding:30px;
+  /* margin-top: 40px; */
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  background-color:#e8f1f5;
+  /* #3fbac2; */
+   /* #75cac3; */
+  /* border: 20px solid #543e5c; */
+  /* border: */
+}
+
+.top-container {
+  position: relative;
+  background-color: #f5f5f5;
+  /* #d7f7f5; */
+  text-align: center;
+  /* border: 10px solid #543e5c; */
+  padding: 2% 2% 0 2%;
+}
+
+.cloud1 {
+  left: 15%;
+  position: absolute;
+  top: 40%;
+  width: 16%;
+ height: 9%
+  /* 220px; */
+}
+
+.cloud2 {
+  position: absolute;
+  right: 20%;
+  width: 14%;
+   height:9%;
+  /* 300px; */
+  top: 5%;
+  /* 150px; */
+}
+
+/* id selectors */
+/* .dimension{
+  height:100px;
+  width:100%;
+} */
+.italicsText {
+  font-style: italic;
+}
+
+.images_in_skill {
+  /* height: 120px;
+  width: 120px; */
+  /* width: 25%; */
+}
+.html_pic{
+width: 160px;
+}
+
+.mobile_pic{
+  width:160px;
+}
+.left_float{
+  float: left;
+  margin-right: 20px;
+}
+.right_float{
+  float: right;
+  margin-left: 20px;
+}
+.para_below_image1{
+  clear: left;
+  text-align: justify;
+
+}
+.para_below_image2{
+  clear: right;
+  text-align: justify;
+
+}
+a {
+  color:  #f5f5f5;;
+}
+
+.skill-row {
+  color: #4d606e;
+  line-height: 200%;
+text-align: left;
+  font-size: 16px;
+  width: 50%;
+  margin:5% auto 5% auto;
+  /* margin:auto; as when we chnage width from 100% to anything text-align center is no longer applicable so we need to set margin auto, to auto space around */
+}
+.scenery_img{
+  display: block;
+  margin: 0 auto;
+  width:50.95%;
+  height:50%;
+}
+
+.links{
+  font-weight: normal;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom:60px;
+}
+.copyright_text{
+  font-weight: lighter;
+  font-size: 15px;
+  color:  #ebebeb;
+  /* #f4f4f4; */
+  /* #f5f5f5; */
+}
+.sun_img{
+  position:absolute;
+  top: 10%;
+  right:8%;
+  width:10%;
+  height:16%;
+}
+.girl_img{
+  position:absolute;
+  bottom: 0;
+  left:60%;
+  height: 20%;
+  width:6%;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #cad0d1;
+  font-family: Courier New;
+  color: ##004a7c;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #74bfed;
+  background-image: -webkit-linear-gradient(top, #74bfed, #3498db);
+  background-image: -moz-linear-gradient(top, #74bfed, #3498db);
+  background-image: -ms-linear-gradient(top, #74bfed, #3498db);
+  background-image: -o-linear-gradient(top, #74bfed, #3498db);
+  background-image: linear-gradient(to bottom, #74bfed, #3498db);
+  text-decoration: none;
+}
